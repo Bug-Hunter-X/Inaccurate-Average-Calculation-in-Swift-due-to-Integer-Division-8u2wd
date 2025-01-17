@@ -1,0 +1,3 @@
+# Inaccurate Average Calculation in Swift
+This example demonstrates a common error in Swift when calculating the average of an array of numbers. The issue arises from implicit integer division when using integers instead of Doubles, leading to inaccurate results.
+The `calculateAverage` function initially uses integer division, but the updated version (`calculateAverageFixed`) uses `Double` to ensure accurate calculations.  The README file details the problem and the solution.
